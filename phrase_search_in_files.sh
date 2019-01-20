@@ -5,6 +5,6 @@ if [ $# -eq 3 ]
 	else
     	echo "Three arguments needed: 
 			1. Path where to start.
-			2. Files extension of text files.
+			2. File extension of text files.
 			3. Searched phrase."
 fi
