@@ -12,7 +12,7 @@ pdf_input = pdf2.PdfFileReader(pdf_obj)
 pdf_output = open('output.pdf', 'wb')
 pdf_writer = pdf2.PdfFileWriter()
 
-for page in range(int(arg[2])-1, int(arg[3])):
+for page in range(int(arg[2])-1, int(arg[3])+1):
     page_obj = pdf_input.getPage(page)
     pdf_writer.addPage(page_obj)
 
